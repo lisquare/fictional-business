@@ -1,0 +1,6 @@
+<svg width="144" height="144" viewBox="0 0 144 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="98" cy="46" r="25.5" transform="rotate(90 98 46)" stroke="#0C003D" stroke-width="9"/>
+<path d="M68 46C68 62.5685 81.4315 76 98 76C114.569 76 128 62.5685 128 46L68 46Z" fill="#0C003D"/>
+<circle cx="46" cy="98" r="25.5" transform="rotate(120 46 98)" stroke="#0C003D" stroke-width="9"/>
+<path d="M61 72.0192C46.6512 63.735 28.3035 68.6512 20.0192 83L71.9807 113C80.265 98.6512 75.3487 80.3035 61 72.0192Z" fill="#0C003D"/>
+</svg>

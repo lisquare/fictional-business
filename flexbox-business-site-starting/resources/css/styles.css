@@ -1,0 +1,236 @@
+/* Universal Styles */
+
+html {
+   font-family: 'Noto Sans', sans-serif;
+   font-size: 16px;
+   background-color: rgb(9, 0, 28);
+   color: white;
+}
+
+.cjk {
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+h1.main {
+    font-family: 'Climate Crisis', cursive;
+    font-size: 4rem;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+body {
+    margin: 0px;
+}
+
+
+/* Header========================================== */
+.header {
+  color: black;
+  background-color: white;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  padding: 0 1rem;
+  z-index: 100;
+}
+
+.logo {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 3.5rem;
+}
+
+.logo img {
+    height: 3rem;
+}
+
+.logo p {
+    font-family: 'Climate Crisis', cursive;
+    font-size: 2rem;
+    display: inline;
+    padding-left: 1rem;
+}
+
+.top-nav ul{
+    display: flex;
+}
+
+.top-nav li{
+    display: inline;
+    margin-left: 2rem;
+}
+
+.top-nav li:last-child {
+    margin-right: 2rem;
+  }
+
+@media only screen and (max-width: 768px) {
+    .header {
+        color: black;
+        background-color: white;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+      }
+
+      .top-nav ul{
+        flex-wrap: wrap;
+    }
+    
+}
+/* hero========================================== */
+
+#hero {
+    position: relative;
+    padding: 2rem;
+    height: 25rem;
+    background-image: url('../image/banner.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    display: flex;
+    align-items: center;
+}
+
+h1.main {
+    padding-top: 5rem;
+}
+
+/* Service========================================== */
+
+
+#service {
+    position: relative;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 5rem;
+}
+
+#service h2 {
+    width: 80%;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgb(81, 0, 255);
+    padding: 2rem;
+    margin: 1rem .5rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 1 240px;
+
+}
+
+.card h4, .card p {
+    color:rgb(9, 0, 28);
+}
+
+.card img {
+    width: 4rem;
+}
+
+/* team========================================== */
+
+#team {
+    position: relative;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 5rem;
+}
+
+.tiles {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tile {
+    margin: 1rem .5rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 1 240px;
+}
+
+.tile h4, .tile p{
+  color: white;
+}
+
+.tile img {
+  border-radius: 100%;
+  width: 10rem;
+  box-shadow: 0 0 1rem rgb(81, 0, 255);
+}
+
+.tile span {
+    font-weight: 300;
+    font-size: .75em;
+    padding: 0 1rem;
+}
+
+/* footer========================================== */
+
+footer {
+    background-color: white;
+    padding: .5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+/* components========================================== */
+
+.top-nav a {
+    font-weight: 600;
+    font-size: 1.25rem;
+    color:rgb(85, 0, 196);
+    text-decoration: none;
+}
+
+.top-nav a:hover {
+    font-weight: 600;
+    color:rgb(111, 0, 255);
+    text-decoration: underline;
+}
+
+.top-nav a:active {
+    font-weight: 600;
+    color:rgb(66, 0, 151);
+    text-decoration: underline;
+}
